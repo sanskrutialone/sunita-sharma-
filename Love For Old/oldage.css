@@ -1,0 +1,150 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Oswald:wght@300;500&family=Roboto+Slab:wght@100&family=Roboto:wght@100&family=Source+Serif+Pro:ital,wght@0,600;1,400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+.sidebar{
+    background-color:rgb(143, 131, 131);
+    width: 300px;
+    font-family:'Kanit', sans-serif; 
+    height: 100vh;
+
+}
+.sidebar nav{
+    padding:45px;
+
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 27px;
+    padding:20px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+    background-color: rgb(184, 178, 178);
+    width: 88vw;
+    height:100vh;
+
+}
+.container{
+    display:flex;
+    margin-left: 15px;
+}
+.infocontainer{
+    background-color:rgb(72, 161, 177) ;
+    height:60vh;
+    width:80vw;
+    margin:144px auto;
+    display:flex;
+    justify-content: space-around;
+    font-family:'Kanit', sans-serif;
+}
+.Info{
+    display:flex;
+    justify-content: center;
+flex-direction: column;
+font-family:  'Kanit', sans-serif;
+margin-left: 15px;
+}
+.hello{
+    font-size:23px ;
+}
+.name{
+    font-size:40px;
+    font-weight: bold;
+}
+.about{
+    font-size:30px;
+}
+.buttons button{
+    font-size: 15px;
+    margin-right: 6px;
+    border-radius: 10px;
+    color:aliceblue;
+    font-weight:bold;
+    background-color:darkblue;
+    font-size: 15px;
+    cursor:pointer ;
+
+
+
+}
+.buttons button:hover{
+    background-color: aliceblue;
+    color:blue;
+}
+.pic img{
+    height: 60vh;
+}
+.moreabout{
+font-weight: bold;
+font-size: 20px;
+
+}
+.mmoreabout{
+    margin-top: 20px;
+    font-weight: lighter;
+font: size 15px;
+}
+.buttons{
+    margin-top:34px;
+    margin-left:20px;
+
+}
+.contactme h1{
+    font-family:'Kanit', sans-serif;
+    text-align: center;
+
+}
+.contactme{
+font-family: 'Times New Roman', Times, serif;
+padding-top: 90px;
+padding:0 34px;
+}
+.contactme form div{
+    padding:20px 0;
+}
+.contactme form div input{
+    width:16vw;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 10px;
+}
+#name{
+    font-size: 10px;
+}
+.form-text{
+    font-size: 10px;
+}
+.buttonsb{
+    
+        font-size: 15px;
+        margin-right: 6px;
+        border-radius: 12px;
+        color:aliceblue;
+        font-weight:bold;
+        background-color:blue;
+        font-size: 15px;
+        cursor:pointer ;
+    }
+    .form-check-input{
+        
+        width:20px;
+    }
+.MP{
+    padding-top: 60px;
+    margin-left:10px ;
+    padding-right: 50px;
+}
+.recreation{
+    padding:20px;
+}
